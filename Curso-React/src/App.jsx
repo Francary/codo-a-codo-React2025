@@ -24,6 +24,7 @@ const App = () => {
   textoBoton='Reclamar Oferta'
   onClickBoton={() => alert('Oferta Aplicada!')}
   />
+  <Clase clase='03'/>
     </>
   )
 }
