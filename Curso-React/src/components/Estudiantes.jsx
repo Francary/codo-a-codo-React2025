@@ -1,8 +1,18 @@
-
 const Estudiantes = () => {
+    const estudiantes = ['Ana', 'Luis', ' Pedro', 'Maria']
     
     return (
-        <h2>Pedro Perez</h2>
+        <>
+        <h2>Lista de Estudiantes </h2>
+        <ul>
+            {estudiantes.map(estudiante =>(
+
+            <li key={estudiante}> {estudiante}
+
+            </li>
+            ) )}
+        </ul>
+        </>
     )
 }
 
