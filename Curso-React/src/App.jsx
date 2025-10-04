@@ -1,9 +1,12 @@
 import './App.css'
 import { Bienvenida, Clase, Mensajes } from './components/Bienvenida.jsx'
 import { Boton, BotonPersonalizado } from './components/Boton.jsx'
+import { EquipoTalentoLap } from './components/EquipoTalentoLap.jsx'
 import { Estudiantes } from './components/Estudiantes.jsx'
+import { GaleriaIntereses } from './components/GaleriaIntereses.jsx'
 import { ListaProductos } from './components/Productos.jsx'
 import { Tarjeta } from './components/Tarjeta.jsx'
+import { Proyectos } from './components/TarjetaProyecto.jsx'
 const App = () => {
   
 
@@ -25,6 +28,10 @@ const App = () => {
   onClickBoton={() => alert('Oferta Aplicada!')}
   />
   <Clase clase='03'/>
+  <EquipoTalentoLap/>
+  <Proyectos/>
+  <GaleriaIntereses/>
+
     </>
   )
 }
