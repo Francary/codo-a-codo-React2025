@@ -32,6 +32,8 @@ const App = () => {
   <Proyectos/>
   <GaleriaIntereses/>
 
+  <Clase clase='04'/>
+
     </>
   )
 }
