@@ -1,6 +1,8 @@
 import './App.css'
 import { Bienvenida, Clase, Mensajes } from './components/Bienvenida.jsx'
 import { Boton, BotonPersonalizado } from './components/Boton.jsx'
+import { Clase04Contador } from './components/Clase04Contador.jsx'
+import { Clase04Formulario } from './components/Clase04Formulario.jsx'
 import { EquipoTalentoLap } from './components/EquipoTalentoLap.jsx'
 import { Estudiantes } from './components/Estudiantes.jsx'
 import { GaleriaIntereses } from './components/GaleriaIntereses.jsx'
@@ -33,6 +35,8 @@ const App = () => {
   <GaleriaIntereses/>
 
   <Clase clase='04'/>
+  <Clase04Contador/>
+  <Clase04Formulario/>
 
     </>
   )
