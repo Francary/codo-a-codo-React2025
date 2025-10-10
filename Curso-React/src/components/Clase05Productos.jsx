@@ -11,15 +11,12 @@ const Clase05Productos = ( ) => {
         fetch(URL)
         .then( respuesta => respuesta.json() )
         .then(datos => {
-            setProducto(datos);
-            setCargando(false)
-            console.log(datos);
-            
+            setProducto(datos);            
         })
         .catch(error => {
-            setError('     Error a Cargar Productos')
-            setCargando(false)
-        });
+            setError('Error a Cargar Productos')
+        })
+        .finally(() => setCargando(false))
        
     },[])
 
