@@ -38,6 +38,9 @@ const App = () => {
   <Clase04Contador/>
   <Clase04Formulario/>
 
+  <Clase clase='05'/>
+
+
     </>
   )
 }
