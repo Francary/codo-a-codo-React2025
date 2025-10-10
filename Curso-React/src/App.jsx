@@ -3,6 +3,8 @@ import { Bienvenida, Clase, Mensajes } from './components/Bienvenida.jsx'
 import { Boton, BotonPersonalizado } from './components/Boton.jsx'
 import { Clase04Contador } from './components/Clase04Contador.jsx'
 import { Clase04Formulario } from './components/Clase04Formulario.jsx'
+import { Clase05Clicker } from './components/Clase05Clicker.jsx'
+import { Clase05Productos } from './components/Clase05Productos.jsx'
 import { EquipoTalentoLap } from './components/EquipoTalentoLap.jsx'
 import { Estudiantes } from './components/Estudiantes.jsx'
 import { GaleriaIntereses } from './components/GaleriaIntereses.jsx'
@@ -39,6 +41,8 @@ const App = () => {
   <Clase04Formulario/>
 
   <Clase clase='05'/>
+  <Clase05Clicker/>
+  <Clase05Productos/>
 
 
     </>
