@@ -44,7 +44,7 @@ const App = () => {
   <Clase05Clicker/>
   <Clase05Productos/>
 
-
+  <Clase clase='06'/>
     </>
   )
 }
