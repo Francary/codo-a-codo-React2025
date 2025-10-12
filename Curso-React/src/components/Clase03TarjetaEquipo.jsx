@@ -1,4 +1,4 @@
-const TarjetaEquipo = ( {datosEquipo}) => {
+const Clase03TarjetaEquipo = ( {datosEquipo}) => {
     const {nombre , rol , imagen} = datosEquipo
     return(
         <>
@@ -14,5 +14,5 @@ const TarjetaEquipo = ( {datosEquipo}) => {
 
 export {
 
-    TarjetaEquipo
+    Clase03TarjetaEquipo
 }

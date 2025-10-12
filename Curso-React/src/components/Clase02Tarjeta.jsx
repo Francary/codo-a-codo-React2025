@@ -1,4 +1,4 @@
-const Tarjeta = ({ titulo, descripcion, textoBoton, onClickBoton }) => (
+const Clase02Tarjeta = ({ titulo, descripcion, textoBoton, onClickBoton }) => (
    <>
         <h2>{titulo}</h2>
         <p>{descripcion}</p>
@@ -11,5 +11,5 @@ const Tarjeta = ({ titulo, descripcion, textoBoton, onClickBoton }) => (
 
 export {
 
-    Tarjeta
+    Clase02Tarjeta
 } 

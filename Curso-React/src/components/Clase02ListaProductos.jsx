@@ -1,4 +1,4 @@
-const ListaProductos = () =>{
+const Clase02ListaProductos = () =>{
     const productos = ['Manzanas', 'Peras','Naranjas']
     return(
         <>
@@ -12,5 +12,5 @@ const ListaProductos = () =>{
 }
 
 export{
-    ListaProductos
+    Clase02ListaProductos
 }

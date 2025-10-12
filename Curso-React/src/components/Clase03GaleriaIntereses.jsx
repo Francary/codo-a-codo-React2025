@@ -1,4 +1,4 @@
-const GaleriaIntereses = () => {
+const Clase03GaleriaIntereses = () => {
     const intereses = [
         {tecnologia:'React', color:'#0d1b2a'},
         {tecnologia:'JavaScript', color:'#0f4c5c'},
@@ -22,5 +22,5 @@ const GaleriaIntereses = () => {
 }
 
 export{
-    GaleriaIntereses
+    Clase03GaleriaIntereses
 }

@@ -1,4 +1,4 @@
-import { TarjetaEquipo } from "./TarjetaEquipo.jsx";
+import { Clase03TarjetaEquipo } from "./Clase03TarjetaEquipo.jsx";
 
  const listaEquipo = [
   { nombre: 'Silvia', rol: 'Product Owner', imagen: 'https://cdn.pixabay.com/photo/2021/03/03/08/56/woman-6064819_640.jpg' },
@@ -8,13 +8,13 @@ import { TarjetaEquipo } from "./TarjetaEquipo.jsx";
 ];
 
 
-const EquipoTalentoLap = () => {
+const Clase03EquipoTalentoLap = () => {
     return(
         <>
        
 
         {listaEquipo.map((equipo , index) =>(
-            < TarjetaEquipo key={index} datosEquipo={equipo}/> 
+            < Clase03TarjetaEquipo key={index} datosEquipo={equipo}/> 
         ))}
         
         
@@ -25,5 +25,5 @@ const EquipoTalentoLap = () => {
 
 
 export {
-    EquipoTalentoLap
+    Clase03EquipoTalentoLap
 }

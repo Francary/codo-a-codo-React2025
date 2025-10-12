@@ -1,5 +1,5 @@
 
-const TarjetaProyecto = ({datosProyecto}) =>{
+const Clase03TarjetaProyecto = ({datosProyecto}) =>{
     const {titulo,descripcion, boton} = datosProyecto
      const handleClick = () =>{
         alert(`!Informacion completa del Proyecto ${titulo}`)
@@ -22,11 +22,11 @@ const proyectos =[
     {titulo:"Shop", descripcion:"Tienda de venta Online",boton:"Ver info"},
 ]
 
-const Proyectos = () => {
+const Clase03Proyectos = () => {
     return (
         <>
         {proyectos.map((proyecto, index) =>
-        <TarjetaProyecto key={index} datosProyecto={proyecto}/>
+        <Clase03TarjetaProyecto key={index} datosProyecto={proyecto}/>
         )}
         </>
     )
@@ -34,5 +34,5 @@ const Proyectos = () => {
 
 
 export {
-   Proyectos
+   Clase03Proyectos
 }

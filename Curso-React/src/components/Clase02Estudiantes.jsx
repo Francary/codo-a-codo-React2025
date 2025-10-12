@@ -1,4 +1,4 @@
-const Estudiantes = () => {
+const Clase02Estudiantes = () => {
     const estudiantes = ['Ana', 'Luis', ' Pedro', 'Maria']
     
     return (
@@ -17,5 +17,5 @@ const Estudiantes = () => {
 }
 
 export {
-    Estudiantes
+    Clase02Estudiantes
 }

@@ -1,50 +1,32 @@
+import { Route, Routes } from 'react-router-dom'
 import './App.css'
-import { Bienvenida, Clase, Mensajes } from './components/Bienvenida.jsx'
-import { Boton, BotonPersonalizado } from './components/Boton.jsx'
-import { Clase04Contador } from './components/Clase04Contador.jsx'
-import { Clase04Formulario } from './components/Clase04Formulario.jsx'
-import { Clase05Clicker } from './components/Clase05Clicker.jsx'
-import { Clase05Productos } from './components/Clase05Productos.jsx'
-import { EquipoTalentoLap } from './components/EquipoTalentoLap.jsx'
-import { Estudiantes } from './components/Estudiantes.jsx'
-import { GaleriaIntereses } from './components/GaleriaIntereses.jsx'
-import { ListaProductos } from './components/Productos.jsx'
-import { Tarjeta } from './components/Tarjeta.jsx'
-import { Proyectos } from './components/TarjetaProyecto.jsx'
+import { Bienvenida} from './components/Bienvenida.jsx'
+import { Clase01 } from './components/Clase01.jsx'
+import { Clase02 } from './components/Clase02.jsx'
+import { Clase03 } from './components/Clase03.jsx'
+import { Clase04 } from './components/Clase04.jsx'
+import { Clase05 } from './components/Clase05.jsx'
+import { Clase06 } from './components/Clase06.jsx'
 const App = () => {
   
 
   return (
     <>
   <Bienvenida clase='01'/>
-  <Clase clase='01'/>
-  <Boton/>
-  <Clase clase='02'/>
-  <BotonPersonalizado texto='Aceptar' color='green'/>
-  <BotonPersonalizado texto='Cancelar' color='red'/>
-  <Estudiantes/>
-  <Mensajes texto='Ejercicios Clase 02'/>
-  <ListaProductos/>
-  <Tarjeta 
-  titulo='Oferta Especial'
-  descripcion='20% de descuento en efectivo'
-  textoBoton='Reclamar Oferta'
-  onClickBoton={() => alert('Oferta Aplicada!')}
-  />
-  <Clase clase='03'/>
-  <EquipoTalentoLap/>
-  <Proyectos/>
-  <GaleriaIntereses/>
+  <Routes>
+      <Route path={'/clase01'} element={<Clase01/>}/>
+      <Route path={'/clase02'} element={<Clase02/>}/>
+      <Route path={'/clase03'} element={<Clase03/>}/>
+      <Route path={'/clase04'} element={<Clase04/>}/>
+      <Route path={'/clase04'} element={<Clase04/>}/>
+      <Route path={'/clase05'} element={<Clase05/>}/>
+      <Route path={'/clase06'} element={<Clase06/>}/>
 
-  <Clase clase='04'/>
-  <Clase04Contador/>
-  <Clase04Formulario/>
+      
+  </Routes>
 
-  <Clase clase='05'/>
-  <Clase05Clicker/>
-  <Clase05Productos/>
 
-  <Clase clase='06'/>
+  
     </>
   )
 }
