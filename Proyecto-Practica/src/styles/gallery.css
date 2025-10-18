@@ -1,0 +1,11 @@
+section{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+img{
+    width: 400px;
+    height: 400px;
+}

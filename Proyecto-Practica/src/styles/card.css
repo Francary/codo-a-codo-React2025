@@ -1,0 +1,32 @@
+.card {
+    background-color: #aec3b0;
+    border-radius: 15px;
+    padding: 5px;
+    color: black;
+}
+
+.contenedorCard{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px ;
+
+}
+
+.contador {
+    display: inline-flex; 
+    justify-content: center; 
+    align-items: center; 
+    background-color:  crimson;
+    border-radius: 50%; 
+    width: 20px; 
+    height: 20px;     
+    position: absolute;
+    margin: -8px 0px 0px -8px ;
+}
+
+img {
+    content:center;
+    width: 30%;
+    height: 30%;
+    
+}

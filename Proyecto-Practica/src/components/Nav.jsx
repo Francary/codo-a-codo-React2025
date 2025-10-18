@@ -1,10 +1,14 @@
+import "../styles/nav.css"
+import { Link } from "react-router-dom";
+
 const Nav =( ) => {  
     return (  
-        <nav style={{ backgroundColor: "#333", color: "white", padding: "10px" }}>  
-            <ul style={{ listStyle: "none", display: "flex", justifyContent: "space-around", margin: 0 }}>  
-                <li><a href="#" style={{ color: "white", textDecoration: "none" }}>Inicio</a></li>  
-                <li><a href="#" style={{ color: "white", textDecoration: "none" }}>Acerca de</a></li>  
-                <li><a href="#" style={{ color: "white", textDecoration: "none" }}>Contacto</a></li>  
+        <nav className="nav">  
+            <ul >  
+                <Link className="link" to={'/'}>Inicio</Link>  
+                <Link className="link" to={'/about'}>Acerca de</Link>  
+                <Link className="link" to={'/contacto'}>Contacto</Link>  
+                <Link className="link" to={'/'}><i className="fa-solid fa-cart-shopping"></i></Link>  
             </ul>  
         </nav>  
     );  

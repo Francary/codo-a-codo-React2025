@@ -1,3 +1,4 @@
+import "../styles/gallery.css"
 const Gallery = () => {  
     const images = [  
         "https://cdn.pixabay.com/photo/2024/07/25/23/56/interior-design-8922413_960_720.jpg",  
@@ -7,9 +8,9 @@ const Gallery = () => {
 
 
     return (  
-        <section style={{ display: "flex", gap: "10px", justifyContent: "center", marginTop: "20px" }}>  
+        <section >  
             {images.map((src, index) => (  
-                <img key={index} src={src} alt={`Imagen ${index + 1}`} style={{ width: "400px", height: "400px" }} />  
+                <img key={index} src={src} alt={`Imagen ${index + 1}`}  />  
             ))}  
         </section>  
     );  
