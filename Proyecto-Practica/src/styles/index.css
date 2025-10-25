@@ -16,6 +16,7 @@ body {
 
 main {
   flex: 1; 
+  padding:2%;
 }
 button {
   border-radius: 8px;
@@ -28,8 +29,4 @@ button {
 }
 button:hover {
   border-color: #646cff;
-}
-main {
-    padding:2%;
-    
 }
